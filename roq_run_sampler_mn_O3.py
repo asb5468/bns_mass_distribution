@@ -88,7 +88,7 @@ def main(number, outdir):
         distance_marginalization=distance_marginalization, phase_marginalization=True)
 
     result = bilby.run_sampler(
-        likelihood=likelihood, priors=priors, sampler='pymultinest', npoints=100, sampling_efficiency=0.1,
+        likelihood=likelihood, priors=priors, sampler='pymultinest', npoints=1000, sampling_efficiency=0.1,
         injection_parameters=injection_parameters, outdir=outdir, label=label, resume=True,
         conversion_function=bilby.gw.conversion.generate_all_bbh_parameters)
 
