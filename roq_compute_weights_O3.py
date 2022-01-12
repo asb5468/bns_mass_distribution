@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """
+author: S. Biscoveanu, Jan 12 2022
 Example of how to use the Reduced Order Quadrature method (see Smith et al.,
 (2016) Phys. Rev. D 94, 044031) for a Binary Black hole simulated signal in
 Gaussian noise.

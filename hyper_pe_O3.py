@@ -1,3 +1,5 @@
+# author: S. Biscoveanu, Jan 12 2022
+
 import bilby
 import h5py
 import json

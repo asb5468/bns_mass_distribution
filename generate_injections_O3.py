@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """
+author: S. Biscoveanu, Jan. 12 2022
 Generate a set of injections to use when evaluating the selection bias
 in the hierarchical inference likelihood.
 """
